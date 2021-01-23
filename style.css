@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rock Salt", cursive;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 0;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.activeBtn:focus,
+.btn-add:focus {
+  outline: none;
+}
+
+.container ul {
+  list-style: none;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lista {
+  display: flex;
+  justify-content: center;
+}
+.container ul li {
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 300px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #bab2b5;
+  color: #eee2dc;
+  -webkit-box-shadow: -3px 4px 13px -4px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: -3px 4px 13px -4px rgba(0, 0, 0, 0.26);
+  box-shadow: -3px 4px 13px -4px rgba(0, 0, 0, 0.26);
+}
+
+.activeBtn {
+  border: none;
+  width: 60px;
+  height: 30px;
+  font-size: 14px;
+  background: #bab2b5;
+  fill: #a1514d;
+}
+
+.activeBtn:hover {
+  fill: #8a4844;
+}
+
+.container {
+  width: 400px;
+  margin: 60px auto;
+  border-radius: 20px;
+  height: 90vh;
+  text-align: center;
+  background: #bab2b5;
+  -webkit-box-shadow: 7px 8px 26px -9px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 7px 8px 26px -9px rgba(0, 0, 0, 0.49);
+  box-shadow: 7px 8px 26px -9px rgba(0, 0, 0, 0.49);
+}
+
+.naslov {
+  padding: 40px 0 80px 0;
+  color: #eee2dc;
+  font-weight: lighter;
+}
+
+.forma {
+  display: flex;
+
+  margin-bottom: 40px;
+}
+.forma input {
+  margin-left: 80px;
+  color: #e3eedc;
+  border: none;
+  border-bottom: 0.5px solid #eee2dc;
+  width: 70px;
+
+  font-size: 14px;
+  background-color: #bab2b5;
+  -webkit-transition: width 0.35s ease-in-out;
+  transition: width 0.35s ease-in-out;
+}
+.forma input:focus {
+  border-bottom: 0.5px solid #eee2dc;
+  width: 180px;
+}
+
+.forma .btn-add {
+  border: none;
+  background-color: #bab2b5;
+  width: 100%;
+  fill: #578844;
+}
+.forma .btn-add:hover {
+  fill: #4d773c;
+}
+
+h3 {
+  color: #eee2dc;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
